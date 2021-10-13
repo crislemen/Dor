@@ -14,7 +14,7 @@ header{
     background-color: lightskyblue;
 
 }
-header img{
+header>img{
     position: absolute;
     left: 2%;
     width: 100px;
