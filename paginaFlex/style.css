@@ -1,0 +1,111 @@
+body {
+    background-color: skyblue;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#carrito {
+    width: 30px;
+}
+
+header {
+    border: 1px solid white;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    justify-content: center;
+    align-self: center;
+    background-color: cadetblue;
+}
+
+ul a {
+    border: 1px solid black;
+    background-color: white;
+}
+
+ul a:hover {
+    background-color: lightskyblue;
+}
+
+#Contenido {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 100px;
+    flex: 5 20%;
+    background-color: lightskyblue;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+#Contenido img {
+    width: 200px;
+}
+
+#Contenido1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 100px;
+    flex: 5 20%;
+    background-color: lightskyblue;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#Contenido1 img {
+    width: 200px;
+}
+
+#Contenido2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 100px;
+    flex: 5 20%;
+    background-color: lightskyblue;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#Contenido2 img {
+    width: 200px;
+}
+
+#contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    border: 1px solid white;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+#contenedor div {
+    width: 50%;
+}
+
+#titulo {
+    width: 100%;
+}
